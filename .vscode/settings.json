@@ -1,0 +1,6 @@
+{
+    "tailwindCSS.suggestions": true,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    }
+}
