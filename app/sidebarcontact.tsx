@@ -12,15 +12,15 @@ import 'react-social-icons/google';
 import 'react-social-icons/mailto';
 
 const socialMediaLinks = [
-  { url: 'https://twitter.com/cryptic_fiazuh', bgColor: '#F5F8FA', fgColor: '#1DA1F2', label: 'Twitter', c: 'text-white' },
-  { url: 'mailto:huzaif.demha@gmail.com', bgColor: '#D44638', fgColor: '#ffffff', label: 'Email', c: 'text-orange-500' }, // Corrected label and bgColor
-  { url: 'https://www.linkedin.com/in/mohammed-huzaif-ahmed-71048a255/', bgColor: '#0077b5', fgColor: '#ffffff', label: 'Linkedin', c: 'text-blue-500' },
-  { url: 'https://github.com/Huzaif-Ahmed', bgColor: '#000000', fgColor: '#ffffff', label: 'Github', c: 'text-slate-300' },
-  { url: 'https://leetcode.com/rexhuzaifahmed/', bgColor: '#F5F8FA', fgColor: '#FF5733', label: 'Leetcode', c: 'text-yellow-500' },
+  { url: 'https://twitter.com/iaman011', bgColor: '#F5F8FA', fgColor: '#1DA1F2', label: 'Twitter', c: 'text-white' },
+  { url: 'mailto:iaman.singh011@gmail.com', bgColor: '#D44638', fgColor: '#ffffff', label: 'Email', c: 'text-orange-500' }, // Corrected label and bgColor
+  { url: 'https://www.linkedin.com/in/iaman011/', bgColor: '#0077b5', fgColor: '#ffffff', label: 'Linkedin', c: 'text-blue-500' },
+  { url: 'https://github.com/iaman011', bgColor: '#000000', fgColor: '#ffffff', label: 'Github', c: 'text-slate-300' },
+  { url: 'https://leetcode.com/u/iaman011/', bgColor: '#F5F8FA', fgColor: '#FF5733', label: 'Leetcode', c: 'text-yellow-500' },
 ];
 
 const resumeLink = [
-  { url: 'https://drive.google.com/file/d/11w74W0090CQ9Cofdn_WAkCBGuOnhyPQZ/view?usp=sharing', bgColor: '#F5F8FA', fgColor: '#FF5733', label: 'Resume', c: 'text-yellow-500' },
+  { url: 'https://drive.google.com/file/d/1ehi6o5QI1frpFlE3sUu6eQEcEsr_E9u6/view?usp=sharing', bgColor: '#F5F8FA', fgColor: '#FF5733', label: 'Resume', c: 'text-yellow-500' },
 ];
 
 const SidebarContact = () => {
