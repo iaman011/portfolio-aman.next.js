@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { HiOutlineCode } from "react-icons/hi"; 
 
 gsap.registerPlugin(ScrollToPlugin);
 
@@ -39,19 +40,19 @@ export const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 bg-blue-500 shadow">
-      <div className="container mx-auto flex items-center justify-between px-3 py-3">
-        <Link href="/" className="text-black font-bold text-2xl">
-          iaman011
+      <div className="container mx-auto flex items-center justify-between px-2 py-2">
+        <Link href="/" className="text-black font-semibold text-xl">
+          <HiOutlineCode size={30} className="text-white" />
         </Link>
         <div className="hidden md:flex space-x-6 text-white">
           {/* <Link href="/">Home</Link> */}
-          <button onClick={scrollToSkills} className="hover:text-blue-600 text-white">
+          <button onClick={scrollToSkills} className="hover:text-black text-white">
             Skills
           </button>
-          <button className="hover:text-blue-600 text-white">
+          <button className="hover:text-black text-white">
             Experience
           </button>
-          <button onClick={scrollToProjects} className="hover:text-blue-600 text-white">
+          <button onClick={scrollToProjects} className="hover:text-black text-white">
             Projects
           </button>
         </div>

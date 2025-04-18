@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Bitter as BitterFont } from 'next/font/google';
 import myimg from '@/public/images/myimg.jpg'
 
@@ -50,7 +49,7 @@ function Hero() {
     <div className='w-10/12 border-slate-200 min-h-32 text-white rounded-md ms-12 me-12 py-10 px-10 flex justify-between'>
       <div className='inline-block '>
 
-        <Image src={myimg} height={200} width={200} alt='Aman Singh' className='rounded-xl ' />
+        <Image src={myimg} height={200} width={200} alt='Aman Singh' className='rounded-2xl ' />
       </div>
       <div className='inline-block w-9/12  py-1 ps-4'>
         <p className={`text-3xl text-indigo-100 font-sans m-3 font-bo ${Bitter.className}`}>
