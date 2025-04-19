@@ -40,7 +40,7 @@ const skills = [
 
 const SkillsSection = () => {
   return (
-    <section className="py-6 bg-slate-900 text-white text-center">
+    <section className="py-6 text-white text-center">
     
 
 <div className="mb-8 flex items-center gap-3">

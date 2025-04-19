@@ -11,10 +11,26 @@ gsap.registerPlugin(ScrollToPlugin);
 export const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  const scrollToHome = () => {
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: { y: "#Home-section", offsetY: 80 },
+      ease: "power2.inOut",
+    });
+  };
+
   const scrollToSkills = () => {
     gsap.to(window, {
       duration: 1,
       scrollTo: { y: "#skills-section", offsetY: 80 },
+      ease: "power2.inOut",
+    });
+  };
+
+  const scrollToExperience = () => {
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: { y: "#Experience-section", offsetY: 80 },
       ease: "power2.inOut",
     });
   };
@@ -41,19 +57,27 @@ export const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-blue-500 shadow">
       <div className="container mx-auto flex items-center justify-between px-2 py-2">
-        <Link href="/" className="text-black font-semibold text-xl">
-          <HiOutlineCode size={30} className="text-white" />
-        </Link>
+      <Link href="/" className="flex items-center space-x-2 text-black font-semibold text-xl">
+      <HiOutlineCode size={25} className="text-white" />
+  <p className="text-black">Aman Portfolio</p>
+  
+</Link>
+
         <div className="hidden md:flex space-x-6 text-white">
-          {/* <Link href="/">Home</Link> */}
+        <button onClick={scrollToHome} className="hover:text-black text-white">
+            Home
+          </button>
           <button onClick={scrollToSkills} className="hover:text-black text-white">
             Skills
           </button>
-          <button className="hover:text-black text-white">
+          <button onClick={scrollToExperience} className="hover:text-black text-white">
             Experience
           </button>
           <button onClick={scrollToProjects} className="hover:text-black text-white">
             Projects
+          </button>
+          <button className="hover:text-black text-white">
+            Contact
           </button>
         </div>
       </div>

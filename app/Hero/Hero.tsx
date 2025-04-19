@@ -52,7 +52,7 @@ function Hero() {
         <Image src={myimg} height={200} width={200} alt='Aman Singh' className='rounded-2xl ' />
       </div>
       <div className='inline-block w-9/12  py-1 ps-4'>
-        <p className={`text-3xl text-indigo-100 font-sans m-3 font-bo ${Bitter.className}`}>
+        <p className={`text-3xl text-white font-sans m-3 font-bo ${Bitter.className}`}>
         Hi, I'm Aman<br /><br />
         Full Stack Developer,<br />
         Building Scalable Web Applications

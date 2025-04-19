@@ -8,8 +8,8 @@ import { Navbar } from '@/Components/navbar';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Huzaif Ahmed portfolio',
-  description: "This is Mohammed Huzaif Ahmed's portfolio. Computer Science Engineering student pursuing B.Tech (2021-2025). Passionate about technology and innovation." ,
+  title: 'Aman Portfolio',
+  description: "This is Aman portfolio — Passionate about Full Stack Development, innovative technologies, and building scalable applications" ,
 }
 
 export default function RootLayout({
