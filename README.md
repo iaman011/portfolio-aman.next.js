@@ -1,16 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-{
-    kam jo baki hai:
-    media queries likhna 
-    toggle btn add krna on mobileopen
-    mail mein fnality add krna
-    aur stats mein kuch ho sake toh ..
-    experience add krna 
-    certification and projects section ko comple krna
-
-}
-
 ## Getting Started
 
 First, run the development server:
