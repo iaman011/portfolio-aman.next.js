@@ -43,6 +43,14 @@ export const Navbar = () => {
     });
   };
 
+  const scrollToContact = () => {
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: { y: "#contact-section", offsetY: 80 },
+      ease: "power2.inOut",
+    });
+  };
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
@@ -76,7 +84,7 @@ export const Navbar = () => {
           <button onClick={scrollToProjects} className="hover:text-black text-white">
             Projects
           </button>
-          <button className="hover:text-black text-white">
+          <button onClick={scrollToContact} className="hover:text-black text-white">
             Contact
           </button>
         </div>

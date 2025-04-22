@@ -1,14 +1,12 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGoogleScholar } from '@fortawesome/free-brands-svg-icons';
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import ProjectCard from './ProjectCard';
 
 const projects = [
   {
     title: "E-Commerce Web App",
-    Description: "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+    Description: "Aman-Store is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
     Demolink: "https://e-commerce-nextjs-iaman011s-projects.vercel.app/",
     Githublink: "https://github.com/iaman011/e-commerce",
     imgurl: "/images/shiksha_ekikaran.jpg",

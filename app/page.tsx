@@ -5,10 +5,10 @@ import Projects from "./Projects/Projects";
 import Stats from "./Stats/Stats";
 import Footer from "@/Components/Footer";
 import { Overview } from "@/Components/overview";
-import { Contact } from "@/Components/contact";
 import SkillsSection from "@/Components/Skills";
 import { Experience } from "@/Components/Experience";
 import Certifications from "@/Components/certification/cert";
+import Contact from "@/Components/contact";
 
 export default function Home() {
   return (
@@ -38,7 +38,10 @@ export default function Home() {
 
           <Certifications />
           <Stats />
-          {/* <Contact />  */}
+          <div id="contact-section">
+          <Contact /> 
+            </div>
+          
           <Footer />
         </div>
       </div>
