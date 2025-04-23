@@ -21,22 +21,23 @@ import { HiOutlineCode } from "react-icons/hi";
 
 const skills = [
   { icon: <SiNextdotjs size={48} />, name: "NextJs" },
-  { icon: <SiReact size={48} />, name: "ReactJs" },
-  { icon: <SiTypescript size={48} />, name: "TypeScript" },
-  { icon: <SiNodedotjs size={48} />, name: "NodeJs" },
+  { icon: <SiReact size={48} color="#61DAFB" />, name: "ReactJs" },
+  { icon: <SiTypescript size={48} color="#3178C6" />, name: "TypeScript" },
+  { icon: <SiNodedotjs size={48} color="#339933" />, name: "NodeJs" },
   { icon: <SiExpress size={48} />, name: "ExpressJs" },
-  { icon: <SiMongodb size={48} />, name: "MongoDB" },
-  { icon: <SiPostgresql size={48} />, name: "PostgreSQL" },
+  { icon: <SiMongodb size={48} color="#47A248" />, name: "MongoDB" },
+  { icon: <SiPostgresql size={48} color="#336791" />, name: "PostgreSQL" },
   { icon: <SiPrisma size={48} />, name: "Prisma" },
-  { icon: <SiCplusplus size={48} />, name: "C++" },
-  { icon: <SiJavascript size={48} />, name: "Javascript" },
-  { icon: <SiTailwindcss size={48} />, name: "Tailwind" },
-  { icon: <SiGreensock size={48} />, name: "GSAP" },
-  { icon: <SiGit size={48} />, name: "Git" },
-  { icon: <SiFigma size={48} />, name: "Figma" },
-  { icon: <SiPostman size={48} />, name: "Postman" },
-  { icon: <SiAmazonaws size={48} />, name: "AWS" },
+  { icon: <SiCplusplus size={48} color="#00599C" />, name: "C++" },
+  { icon: <SiJavascript size={48} color="#F7DF1E" />, name: "Javascript" },
+  { icon: <SiTailwindcss size={48} color="#06B6D4" />, name: "Tailwind" },
+  { icon: <SiGreensock size={48} color="#88CE02" />, name: "GSAP" },
+  { icon: <SiGit size={48} color="#F05032" />, name: "Git" },
+  { icon: <SiFigma size={48} color="#F24E1E" />, name: "Figma" },
+  { icon: <SiPostman size={48} color="#FF6C37" />, name: "Postman" },
+  { icon: <SiAmazonaws size={48} color="#FF9900" />, name: "AWS" },
 ];
+
 
 const SkillsSection = () => {
   return (
